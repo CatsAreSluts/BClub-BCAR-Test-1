@@ -21,20 +21,20 @@ var bcModSdk=function(){"use strict";const o="1.0.2";function e(o){alert("Mod ER
   //Functions
 
     const typeAction = { EarCaress :
-                [["Mnyaa~","Nnyaaaaah~","Nnyaaaaah~","Nnyaa~","Nyaa~"], // sounds
+                [["","","","",""], // sounds
                 [" purrs softly, twitching their ears.", " twitches their ears, purring loudly as their ears are toyed with.",
                 " twitches their ears, purring loudly as their ears are toyed with.", " squirms, twitches their ears and purrs.",
                 " wiggles and twitches their ears purring softly."]], // actions // order matters, match sound with action
                 EarNibble :
-                [["Mnyaa~","Nnyaa~","Nnyaaaaah~"],
-                [" moans softly and twitches their ears as it's nibbled.", " wiggles and twitches their ears between the teeth.",
-                " moans softly, twitching their ears as it's nibbled."]],
+                [["","",""],
+                ["", "",
+                ""]],
                 EarLick :
-                [["Mnyaa~","Nnyaa~","Nnyaaaaah~"],
+                [["","",""],
                 [" moans softly and twitches their ears as it's licked.", " wiggles and twitches their ears caused by the licking.",
                 " moans softly, twitching theirr ears as it's licked."]],
                 EarKiss :
-                [["Mnyaa~","Nnyaa~","Nnyaaaaah~"],
+                [["","",""],
                 [" moans softly and twitches their ears as it's kissed.", " wiggles and twitches their ears caused by the kissing.",
                 " moans softly, twitching their ears as it's kissed."]],
                 HeadBrush :
@@ -46,13 +46,13 @@ var bcModSdk=function(){"use strict";const o="1.0.2";function e(o){alert("Mod ER
                  " purrs softly, twitches their ears and nuzzles into the pat."," purrs happily, twitches their ears and nuzzles into the pat."]],
                 CaressBack :
                 [["",""],
-                [" purrs softly and wags their tail.", " purrs softly, arches their back and wags their tail."]],
+                ["", ""]],
                 MassageBack :
                 [[""],
-                [" purrs softly and wags their tail."]],
+                [""]],
                 CaressButt :
-                [["Mnyaa~"],
-                [" purrs softly, wiggles their butt and wags their tail."]],
+                [[""],
+                [""]],
         }
 
     function ActivityBeeper(type,nya){
